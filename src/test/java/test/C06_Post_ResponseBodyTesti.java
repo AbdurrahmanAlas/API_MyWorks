@@ -7,9 +7,7 @@ import org.json.JSONObject;
 import org.junit.Test;
 
 import static io.restassured.RestAssured.given;
-import static org.hamcrest.CoreMatchers.equalTo;
-import static org.hamcrest.Matchers.containsString;
-import static org.hamcrest.Matchers.lessThan;
+import static org.hamcrest.Matchers.*;
 
 public class C06_Post_ResponseBodyTesti {
 
@@ -102,6 +100,9 @@ public class C06_Post_ResponseBodyTesti {
                 body("title", equalTo("API"),
                         "userId", lessThan(100),
                         "body", containsString("API"));
+
+
+
 
 
     }
