@@ -6,11 +6,10 @@ import org.junit.Before;
 
 public class JsonPlaceHolderBaseUrl {
 
-  protected   RequestSpecification specJsonPlace;
+    protected RequestSpecification specJsonPlace;
 
     @Before
     public void setUp(){
-
 
         specJsonPlace = new RequestSpecBuilder().
                 setBaseUri("https://jsonplaceholder.typicode.com").
