@@ -18,6 +18,7 @@ public class C28_Post_Pojo extends HerokuappBaseUrl {
       https://restful-booker.herokuapp.com/booking url’ine
       asagidaki body'ye sahip bir POST request gonderdigimizde
       donen response’un id disinda asagidaki gibi oldugunu test edin.
+
                           Request body
                      {
                           "firstname" : "Ahmet",
