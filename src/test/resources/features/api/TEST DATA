@@ -1,0 +1,11 @@
+  public List<String> getAllFieldsOfDepartman(){
+        List<String> fields = new ArrayList<>();
+        fields.add("id");
+        fields.add("name");
+        fields.add("details");
+        fields.add("status");
+        fields.add("created_at");
+        fields.add("updated_at");
+       // fields.add("DEGISIK");
+        return fields;
+    }
